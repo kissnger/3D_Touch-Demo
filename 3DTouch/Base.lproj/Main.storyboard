@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FIc-UN-YKC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--3D_Touch-Demo-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bdlogo" translatesAutoresizingMaskIntoConstraints="NO" id="9Ff-9a-t39">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9Ff-9a-t39" secondAttribute="height" multiplier="1:1" id="Mab-yE-8Cw"/>
+                                    <constraint firstAttribute="width" constant="100" id="vv8-hB-ekh"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="9Ff-9a-t39" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tea-wB-cfX"/>
+                            <constraint firstItem="9Ff-9a-t39" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uZ1-Sd-BbM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="3D_Touch-Demo" id="zAD-gX-ltM"/>
+                    <connections>
+                        <outlet property="image" destination="9Ff-9a-t39" id="tb1-jK-O4l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="291"/>
+        </scene>
+        <!--Fir View Controller-->
+        <scene sceneID="RBS-dy-dRF">
+            <objects>
+                <viewController storyboardIdentifier="FirstVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uov-fn-rdK" customClass="FirViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WGX-3r-lLV"/>
+                        <viewControllerLayoutGuide type="bottom" id="d8a-Kq-suG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i1Z-TY-wgT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一个控制器" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0D-oY-TBU">
+                                <rect key="frame" x="249" y="290" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="u0D-oY-TBU" firstAttribute="centerY" secondItem="i1Z-TY-wgT" secondAttribute="centerY" id="22v-MG-EHM"/>
+                            <constraint firstItem="u0D-oY-TBU" firstAttribute="centerX" secondItem="i1Z-TY-wgT" secondAttribute="centerX" id="jCY-6l-gLx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fda-U8-WZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1776" y="-1111"/>
+        </scene>
+        <!--Fir View Controller-->
+        <scene sceneID="0lR-up-yyV">
+            <objects>
+                <viewController storyboardIdentifier="SecVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F0x-JX-qoQ" customClass="FirViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zs0-Lv-25T"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z9X-iO-D9B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9zd-0d-Slz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第二个控制器" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li3-Kg-Ysc">
+                                <rect key="frame" x="249" y="290" width="102" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Li3-Kg-Ysc" firstAttribute="centerX" secondItem="9zd-0d-Slz" secondAttribute="centerX" id="3Tr-d4-Jei"/>
+                            <constraint firstItem="Li3-Kg-Ysc" firstAttribute="centerY" secondItem="9zd-0d-Slz" secondAttribute="centerY" id="Azg-Ia-Vdr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gsA-gO-gLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="-359"/>
+        </scene>
+        <!--Fir View Controller-->
+        <scene sceneID="tX3-qn-Pvx">
+            <objects>
+                <viewController storyboardIdentifier="FirVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Kei-mS-DPL" customClass="FirViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wug-P6-fef"/>
+                        <viewControllerLayoutGuide type="bottom" id="wUs-L3-afs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hBv-3O-LPR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bdlogo" translatesAutoresizingMaskIntoConstraints="NO" id="DLQ-O5-scR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DLQ-O5-scR" secondAttribute="height" multiplier="1:1" id="PS4-Cu-HUd"/>
+                                    <constraint firstAttribute="width" secondItem="DLQ-O5-scR" secondAttribute="height" multiplier="29:28" id="b75-7H-F4p"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="b75-7H-F4p"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="DLQ-O5-scR" firstAttribute="top" secondItem="Wug-P6-fef" secondAttribute="bottom" constant="10" id="2AA-88-ZE6"/>
+                            <constraint firstAttribute="trailing" secondItem="DLQ-O5-scR" secondAttribute="trailing" constant="10" id="2gM-DB-uQb"/>
+                            <constraint firstItem="DLQ-O5-scR" firstAttribute="leading" secondItem="hBv-3O-LPR" secondAttribute="leading" constant="10" id="643-Hd-oDI"/>
+                            <constraint firstItem="DLQ-O5-scR" firstAttribute="centerX" secondItem="hBv-3O-LPR" secondAttribute="centerX" id="Eaw-qV-LEi"/>
+                            <constraint firstItem="DLQ-O5-scR" firstAttribute="centerY" secondItem="hBv-3O-LPR" secondAttribute="centerY" id="UY7-eU-xi7"/>
+                            <constraint firstAttribute="trailing" secondItem="DLQ-O5-scR" secondAttribute="trailing" id="fxe-CP-bCN"/>
+                            <constraint firstItem="DLQ-O5-scR" firstAttribute="leading" secondItem="hBv-3O-LPR" secondAttribute="leading" id="gdE-1C-yZh"/>
+                            <constraint firstItem="wUs-L3-afs" firstAttribute="top" secondItem="DLQ-O5-scR" secondAttribute="bottom" constant="10" id="p6u-kR-ObZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2AA-88-ZE6"/>
+                                <exclude reference="2gM-DB-uQb"/>
+                                <exclude reference="643-Hd-oDI"/>
+                                <exclude reference="p6u-kR-ObZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="DLQ-O5-scR" id="isb-7Q-yEg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpn-cN-JMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795" y="389"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LId-vv-OR9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FIc-UN-YKC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Ye-Wi-Q9R">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PMA-s5-gWw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrv-6W-q9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="335" y="393"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bdlogo" width="60" height="60"/>
+    </resources>
+</document>
