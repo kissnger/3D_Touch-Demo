@@ -34,11 +34,21 @@
   
   
   _vc = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"FirVC"];
- 
+// 
   _vc.preferredContentSize = CGSizeMake(0.0f,300.0f);
+ 
 //  CGRect rect = CGRectMake(0, 0, 0,0);
 //  previewingContext.sourceRect = rect;
+ UIPreviewAction *action1 = [UIPreviewAction actionWithTitle:@"diyige" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+    
+  }];
+  UIPreviewAction *action2 = [UIPreviewAction actionWithTitle:@"diyige" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
+    
+  }];
+ UIPreviewActionGroup *group = [UIPreviewActionGroup actionGroupWithTitle:@"kkk" style:UIPreviewActionStyleDefault actions:@[action1,action2]];
   
+ NSArray* items = [self previewActionItems];
+
   return _vc;
 }
 
